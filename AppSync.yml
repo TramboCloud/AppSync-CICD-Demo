@@ -445,6 +445,9 @@ Resources:
             author: String!
             comment: String!
         }
+        type Demo {
+            example: String!
+        }
         type Mutation {
             addComment(id: ID!, author: String!, comment: String!): Post
             addTag(id: ID!, tag: String!): Post
